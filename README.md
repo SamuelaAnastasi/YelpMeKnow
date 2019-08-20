@@ -7,8 +7,11 @@ The dataset containes 560,000 training samples and 38,000 testing samples, but d
 
 ### Project data
 Train data size: 20000 ~ 3.6% of training samples
+
 Test data size: 2000 ~ 5.3% of testing samples
+
 Epochs: 1
+
 Matthew's correlation coefficient: ~ 0.86
 
 The accuracy of predictions is evaluated using [**Matthew’s correlation coefficient**](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html), which is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
